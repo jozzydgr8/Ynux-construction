@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --green-primary: #3AAF3E;
+  --green-dark: #1F6E1F;
+  --red-accent: #C63846;
+  --text-dark: #000000;
+  --background: #FFFFFF;
+  --different-background:#F5F5F5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+section > .container-fluid, footer > .container-fluid{
+  padding:3% 7%;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+h2{
+  font-size:40px;
+  font-weight:900;
+  text-transform: capitalize;
+}
+h3{
+  font-weight: 700;
+}
+
+h4, h5, h6{
+  font-weight:300;
+}
+/*  */
+h2, h3, h4, h5, h6{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+/* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
+nav{
+  text-transform: capitalize;
+}
+
+.navbar-brand {
+    width: 12%;
+}
+
+@media (max-width:750px) {
+    .navbar-brand {
+        width: 40%;
+    }
+}
+nav .container-fluid{
+  padding:0 7% ;
+}
+
+
+
+
+/* button buttn */
+.btn{
+  text-transform: capitalize;
+   white-space: nowrap;
+   margin-right: 10px;
+   margin-bottom: 10px;
+} 
+.btnPrimary, .btnPrimary:hover{
+  background: var(--green-primary);
+  color: var(--color-white);
 }
