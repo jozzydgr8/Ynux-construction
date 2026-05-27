@@ -35,16 +35,11 @@ section > .container-fluid, footer > .container-fluid{
   padding:5% 7%;
 }
 
-h1{
+h1 {
   font-family: "Cormorant SC", serif;
-  
-  font-style: normal;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-      font-size: clamp(2rem, 8vw, 4rem);
-  line-height: 1.1;
-
+  font-weight: 700;
+  font-size: clamp(3.2rem, 7vw, 5.5rem);
+  line-height: 1;
 }
 h2{
   font-size:40px;
@@ -77,7 +72,7 @@ nav{
 
 @media (max-width:750px) {
     .navbar-brand {
-        width: 40%;
+        width: 20%;
     }
 }
 nav .container-fluid{
@@ -118,6 +113,7 @@ nav .container-fluid{
   padding: 3px 12px;
   border-radius: 20px;
   margin-top: 8px;
+  font-weight:bold;
  
   
 }
@@ -131,6 +127,18 @@ nav .container-fluid{
   vertical-align: middle;
   
 }
+
+.icon-style {
+  font-size: 32px;
+  background: var(--transparent-green); /* gradient from dark to light blue */
+  color: var(--light-green);
+  padding: 14px;
+  border-radius: 10px;
+  display: inline-flex; /* ensures icon stays centered if needed */
+  align-items: center;
+  justify-content: center;
+}
+
 p.subtopic {
     font-size: 20px; /* bigger than body text */
     font-weight: 500; /* slightly bolder, optional */
@@ -160,4 +168,18 @@ p.subtopic {
 
 #hero h3{
   color: var(--light-green);
+}
+
+/* --services--service--services--servicesooservices */
+.serviceCard{
+  background: var(--background);
+  padding: 15px 30px ;
+  border-radius: 10px;
+ 
+}
+.serviceCard:hover{
+   box-shadow: 0 4px 6px var(--light-green);
+   cursor: pointer;
+    padding: 18px 32px ;
+    transition: all 0.3s ease;
 }

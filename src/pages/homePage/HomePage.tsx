@@ -1,3 +1,4 @@
+import { About } from "./homeComponent/About"
 import {Hero} from "./homeComponent/Hero"
 import { Service } from "./homeComponent/Service"
 export const HomePage = ()=>{
@@ -5,6 +6,7 @@ export const HomePage = ()=>{
         <>
         <Hero/>
         <Service/>
+        <About/>
         </>
     )
 }
