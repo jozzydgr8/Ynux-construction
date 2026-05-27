@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Ynux-construction/static/css/main.f855e6bc.css",
-    "main.js": "/Ynux-construction/static/js/main.80911bb2.js",
+    "main.css": "/Ynux-construction/static/css/main.b8e6e07f.css",
+    "main.js": "/Ynux-construction/static/js/main.39065c56.js",
     "static/js/453.2b03c15a.chunk.js": "/Ynux-construction/static/js/453.2b03c15a.chunk.js",
-    "static/media/logo.svg": "/Ynux-construction/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/roadtar.png": "/Ynux-construction/static/media/roadtar.a729144e510e47d55a20.png",
+    "static/media/businessLogo.png": "/Ynux-construction/static/media/businessLogo.a07c92c7dfc34c1f94e6.png",
     "index.html": "/Ynux-construction/index.html",
-    "main.f855e6bc.css.map": "/Ynux-construction/static/css/main.f855e6bc.css.map",
-    "main.80911bb2.js.map": "/Ynux-construction/static/js/main.80911bb2.js.map",
+    "main.b8e6e07f.css.map": "/Ynux-construction/static/css/main.b8e6e07f.css.map",
+    "main.39065c56.js.map": "/Ynux-construction/static/js/main.39065c56.js.map",
     "453.2b03c15a.chunk.js.map": "/Ynux-construction/static/js/453.2b03c15a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.80911bb2.js"
+    "static/css/main.b8e6e07f.css",
+    "static/js/main.39065c56.js"
   ]
 }
