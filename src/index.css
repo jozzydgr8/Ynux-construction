@@ -1,10 +1,13 @@
 :root {
-  --green-primary: #3AAF3E;
-  --green-dark: #1F6E1F;
+  --light-green: #3AAF3E;
+  --primary-green: #1F6E1F;
+  --transparent-green: rgba(58, 175, 62, 0.2);
   --red-accent: #C63846;
   --text-dark: #000000;
   --background: #FFFFFF;
   --different-background:#F5F5F5;
+    --ivory:#fffaf0;
+  --gray:#6b7280 ;
 }
 
 
@@ -15,10 +18,12 @@
     box-sizing: border-box;
 }
 body{
-  font-family: "Catamaran", sans-serif;
-  font-optical-sizing: auto;
+   font-family: "Martel", serif;
   font-weight: 400;
   font-style: normal;
+  background: var(--ivory);
+  color:var(--text-dark);
+  
 }
 
 a{
@@ -27,14 +32,19 @@ a{
 }
 
 section > .container-fluid, footer > .container-fluid{
-  padding:3% 7%;
+  padding:5% 7%;
 }
 
 h1{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cormorant SC", serif;
+  
+  font-style: normal;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+      font-size: clamp(2rem, 8vw, 4rem);
+  line-height: 1.1;
+
 }
 h2{
   font-size:40px;
@@ -50,10 +60,11 @@ h4, h5, h6{
 }
 /*  */
 h2, h3, h4, h5, h6{
-  font-family: "Cabin", sans-serif;
+   font-family: "Vesper Libre", serif;
+  font-weight: 700;
+  font-style: normal;
   font-optical-sizing: auto;
 
-  font-style: normal;
 }
 /* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
 nav{
@@ -61,7 +72,7 @@ nav{
 }
 
 .navbar-brand {
-    width: 12%;
+    width: 8%;
 }
 
 @media (max-width:750px) {
@@ -83,7 +94,70 @@ nav .container-fluid{
    margin-right: 10px;
    margin-bottom: 10px;
 } 
-.btnPrimary, .btnPrimary:hover{
-  background: var(--green-primary);
-  color: var(--color-white);
+.btnPrimary, .btnPrimary:hover, .btnSecondary:hover{
+  background: var(--primary-green);
+  color: var(--ivory);
+}
+.btnSecondary{
+   background-color: none;
+   border: solid 1px var(--primary-green);
+  color: var(--light-green);
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* special-classes special-classes special-classes */
+.homeBadgeParent{
+  background-color: var(--transparent-green);
+  color: var(--light-green);
+  text-transform: capitalize;
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin-top: 8px;
+ 
+  
+}
+.homeBadge{
+   display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: var(--primary-green);
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+  
+}
+p.subtopic {
+    font-size: 20px; /* bigger than body text */
+    font-weight: 500; /* slightly bolder, optional */
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* hero-section hero-section hero-section */
+#hero{
+  background-image: url('./assets/roadtar.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+#hero .container-fluid{
+  color: var(--ivory);
+  min-height: 80vh;
+  background: linear-gradient(
+  to right,
+  var(--text-dark),
+  transparent 200% 
+  
+);}
+
+#hero h3{
+  color: var(--light-green);
 }

@@ -1,4 +1,4 @@
-// import businessLogo from '../assets/businessLogo.png'
+import businessLogo from '../assets/businessLogo.png'
 import { FlatButton } from './FlatButton'
 import { handleRequest } from './handleRequest'
 
@@ -7,9 +7,9 @@ export const Navbar = () => {
  
 
   return (
-    <nav className="navbar navbar-expand-lg" data-bs-theme='light'>
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark" data-bs-theme='dark' >
       <div className="container-fluid">
-        {/* <img className='navbar-brand' src={businessLogo} alt='logo' /> */}
+        <img className='navbar-brand' src={businessLogo} alt='logo' />
 
         <button
           className="navbar-toggler"
@@ -39,6 +39,11 @@ export const Navbar = () => {
             <li className="nav-item">
               <a href={`#services`} className="nav-link active">
                     Services
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href={`#projects`} className="nav-link active">
+                    Projects
               </a>
             </li>
             
