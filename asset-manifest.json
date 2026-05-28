@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/Ynux-construction/static/css/main.7b9990f3.css",
-    "main.js": "/Ynux-construction/static/js/main.d06925e2.js",
+    "main.css": "/Ynux-construction/static/css/main.f7380123.css",
+    "main.js": "/Ynux-construction/static/js/main.e44a0bc9.js",
     "static/js/453.2b03c15a.chunk.js": "/Ynux-construction/static/js/453.2b03c15a.chunk.js",
     "static/media/roadtar.png": "/Ynux-construction/static/media/roadtar.a729144e510e47d55a20.png",
+    "static/media/hardcoreFillingWork.png": "/Ynux-construction/static/media/hardcoreFillingWork.0f71f69b9e26c923dc3b.png",
     "static/media/whitemaninConstruction.png": "/Ynux-construction/static/media/whitemaninConstruction.faac8f3427f1cb974254.png",
+    "static/media/floorLeveling.png": "/Ynux-construction/static/media/floorLeveling.92a5f19e5a97915909d3.png",
     "static/media/adebayoSamsudeen.png": "/Ynux-construction/static/media/adebayoSamsudeen.c6794cef77fe363b3ff2.png",
     "static/media/AdelekeAjibola.png": "/Ynux-construction/static/media/AdelekeAjibola.ced49c6c313e1c451fec.png",
     "static/media/okeAbiola.png": "/Ynux-construction/static/media/okeAbiola.b9a4e39654e358b2e735.png",
     "static/media/businessLogo.png": "/Ynux-construction/static/media/businessLogo.a07c92c7dfc34c1f94e6.png",
     "index.html": "/Ynux-construction/index.html",
-    "main.7b9990f3.css.map": "/Ynux-construction/static/css/main.7b9990f3.css.map",
-    "main.d06925e2.js.map": "/Ynux-construction/static/js/main.d06925e2.js.map",
+    "main.f7380123.css.map": "/Ynux-construction/static/css/main.f7380123.css.map",
+    "main.e44a0bc9.js.map": "/Ynux-construction/static/js/main.e44a0bc9.js.map",
     "453.2b03c15a.chunk.js.map": "/Ynux-construction/static/js/453.2b03c15a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b9990f3.css",
-    "static/js/main.d06925e2.js"
+    "static/css/main.f7380123.css",
+    "static/js/main.e44a0bc9.js"
   ]
 }
