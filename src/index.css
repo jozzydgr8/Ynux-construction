@@ -200,4 +200,5 @@ p.subtopic {
   background: var(--different-background);
   border-radius: 10px;
  border-bottom: 2px solid var(--primary-green);
+  box-shadow: 0 4px 6px var(--light-green);
 }

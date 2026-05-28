@@ -35,7 +35,7 @@ export const Leadership = ()=>{
                                         display: "flex",
                                         alignItems: "center",
                                         justifyContent: "center",
-                                        backgroundColor: "#f5f5f5",
+                                        backgroundColor: "#fffaf0",
                                         overflow: "hidden"
                                         }}
                                         >
@@ -49,7 +49,7 @@ export const Leadership = ()=>{
                                         }}
                                     />
                                     </div>
-                                    
+
                                 <br/>
                                     <div style={{padding:'10px 30px'}}>
                                         <h3>{leader.name}</h3>

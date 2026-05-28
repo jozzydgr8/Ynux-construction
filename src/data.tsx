@@ -10,9 +10,9 @@ import {
   AlertOutlined,
 } from "@ant-design/icons";
 
-import okeAbiola from './assets/OkeAbiola.jpg';
-import CEOAdelekeAjibola from './assets/ceo-adeleke-ajibola.jpg';
-import adebayoSamsundeen from './assets/adebayoSamsudeen.jpg';
+import okeAbiola from './assets/okeAbiola.png';
+import CEOAdelekeAjibola from './assets/AdelekeAjibola.png';
+import adebayoSamsundeen from './assets/adebayoSamsudeen.png';
 
 export const services = [
   {
