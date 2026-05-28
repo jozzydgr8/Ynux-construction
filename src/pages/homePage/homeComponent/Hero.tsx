@@ -8,7 +8,7 @@ export const Hero = ()=>{
                     
                    <span className='homeBadgeParent '> 
                     <span className='homeBadge'></span>
-                    Est. 2020 · CAC Registered · Ltd.
+                    Est.2020 ·CAC Registered ·Ltd.
                     </span>
                 </div>
                 <br/>
