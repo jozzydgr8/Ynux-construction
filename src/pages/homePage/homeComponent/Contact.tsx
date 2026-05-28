@@ -45,7 +45,9 @@ export const  Contact = ()=>{
                             }
                         </div>
                         <br/>
-                        <FlatButton title="Send Consultation request" className="btn btnSecondary btn-xl" icon={<ArrowRightOutlined/>}/>
+                       <div>
+                         <FlatButton title="Send Consultation request" className="btn btnSecondary btn-lg" icon={<ArrowRightOutlined/>}/>
+                       </div>
 
                     </div>
 

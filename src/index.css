@@ -210,6 +210,13 @@ p.subtopic {
   box-shadow: 0 4px 6px var(--light-green);
 }
 
+/* --project--project--project--project */
+.projectCard{
+  background-color: var(--background);
+   box-shadow: 0 4px 6px var(--different-background);
+  border-radius: 20px;
+}
+
 /* contact--contact--contact--contact */
 .cta-icon{
   background: var(--light-green);

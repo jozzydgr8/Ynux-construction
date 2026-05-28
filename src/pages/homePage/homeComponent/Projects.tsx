@@ -1,4 +1,5 @@
 import {projects} from '../../../data'
+import { MarqueeComponent } from './MarqueeComponent'
 export const Projects = ()=>{
     return(
         <section>
@@ -31,7 +32,7 @@ export const Projects = ()=>{
                                     <div
                                     style={{height:"150px", width:"100%",backgroundImage:`url(${project.image})`,
                                     backgroundSize:"cover", backgroundPosition:'center', backgroundRepeat:'no-repeat'}}></div>
-                                    <div>
+                                    <div style={{padding:"20px"}}>
                                         <h3>{project.title}</h3>
                                         <br/>
                                         <p>{project.description}</p>
@@ -41,7 +42,7 @@ export const Projects = ()=>{
                         ))
                     }
                 </div>
-
+                <MarqueeComponent/>
             </div>
         </section>
     )
