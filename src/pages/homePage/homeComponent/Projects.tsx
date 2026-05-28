@@ -1,4 +1,5 @@
 import {projects} from '../../../data'
+import { FlatButton } from '../../../shared/FlatButton'
 import { MarqueeComponent } from './MarqueeComponent'
 export const Projects = ()=>{
     return(
@@ -42,7 +43,11 @@ export const Projects = ()=>{
                         ))
                     }
                 </div>
+                <div className='text-center'>
+                    <FlatButton title='Make Enquiries' className='btn btnPrimary btn-xl'/>
+                </div>
                 <MarqueeComponent/>
+                
             </div>
         </section>
     )

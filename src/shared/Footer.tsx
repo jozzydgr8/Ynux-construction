@@ -55,7 +55,7 @@ export const Footer = ()=>{
                 </div>
                 <hr/>
                 <p >All Rights Reserved © Ynux construction {year}</p><br/>
-                <a style={{color:"var(--light-green)"}} href='https://jozzycodes.com'target='_blank' rel='no-referrer'><small>Website created by jozzycodes</small></a>
+                <a style={{color:"var(--light-green)"}} href='https://jozzycodes.com'target='_blank' rel="noreferrer"><small>Website created by jozzycodes</small></a>
 
             </div>
         </footer>
