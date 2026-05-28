@@ -10,7 +10,7 @@ import {
   AlertOutlined,
   PhoneFilled,
   MailFilled,
-  EnvironmentFilled, SafetyCertificateTwoTone, TeamOutlined, TrophyOutlined
+  EnvironmentFilled, SafetyCertificateOutlined, TeamOutlined, TrophyOutlined
 } from "@ant-design/icons";
 
 import okeAbiola from './assets/okeAbiola.png';
@@ -142,7 +142,7 @@ export const ctaFeaturesList = [
   {
     id: 2,
     text: "Registered & compliant construction company",
-    icon: <SafetyCertificateTwoTone style={{ ...featureIcon }} />
+    icon: <SafetyCertificateOutlined style={{ ...featureIcon }} />
   },
   {
     id: 3,
