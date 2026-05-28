@@ -8,11 +8,33 @@ import {
   DeploymentUnitOutlined,
   DeleteOutlined,
   AlertOutlined,
+  PhoneFilled,
+  MailFilled,
+  EnvironmentFilled, SafetyCertificateTwoTone, TeamOutlined, TrophyOutlined
 } from "@ant-design/icons";
 
 import okeAbiola from './assets/okeAbiola.png';
 import CEOAdelekeAjibola from './assets/AdelekeAjibola.png';
 import adebayoSamsundeen from './assets/adebayoSamsudeen.png';
+
+
+
+const contactIcon = {
+    fontSize:'27px',
+    color:'var(--ivory)',
+    padding:'15px',
+    borderRadius:'15px',
+  
+  }
+
+    const featureIcon={
+    color:'var(--ivory)',
+    fontWeight:'900',
+    fontSize:'40px',
+    
+
+  }
+
 
 export const services = [
   {
@@ -85,9 +107,51 @@ export const leaders = [
     "description": "Responsible for project coordination and execution, ensuring operational efficiency and timely delivery across all infrastructure projects."
   },
   {
-    "name": "Oke Abiola Afeez",
+    "name": "Engr. Oke Abiola Afeez",
     "position": "Director, Road Projects",
     "image":okeAbiola,
     "description": "Leading road and infrastructure development with a focus on durability, safety, and world-class engineering standards."
   }
 ]
+
+export const contactInfo = [
+  {
+    icon: <PhoneFilled style={{...contactIcon}}/>,
+    label: "Call us directly",
+    value:<a href="tel:+2348080548331">+234 123 454 6789</a>
+  },
+  {
+    icon: <MailFilled style={{...contactIcon}}/>,
+    label: "Email us anytime",
+    value: <a href="mailto:info@dewhynoconstruction.ng">info@ynuxconstruction</a>
+  },
+  {
+    icon: <EnvironmentFilled style={{...contactIcon}}/>,
+    label: "Visit our office",
+    value: "Abuja, Nigeria"
+  }
+];
+
+
+export const ctaFeaturesList = [
+  {
+    id: 1,
+    text: "Free, no-obligation project consultation",
+    icon: <h1 style={{ ...featureIcon }}>FREE</h1>
+  },
+  {
+    id: 2,
+    text: "Registered & compliant construction company",
+    icon: <SafetyCertificateTwoTone style={{ ...featureIcon }} />
+  },
+  {
+    id: 3,
+    text: "Experienced team across Nigeria",
+    icon: <TeamOutlined style={{ ...featureIcon }} />
+  },
+  {
+    id: 4,
+    text: "End-to-end project management",
+    icon: <TrophyOutlined style={{ ...featureIcon }} />
+  }
+];

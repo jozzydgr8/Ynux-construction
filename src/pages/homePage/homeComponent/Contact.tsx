@@ -1,0 +1,74 @@
+import { contactInfo, ctaFeaturesList } from "../../../data"
+export const  Contact = ()=>{
+    return(
+        <section>
+            <div className="container-fluid">
+                <div className="row align-items-center">
+                    <div className="col-md-6">
+
+
+                        <div className=''>
+                        <span className='homeBadgeParent '> 
+                            <span className='homeBadge'></span>
+                                Contact us
+                            </span>  
+                        </div>
+
+                        <br/>
+                        <h2 className=' animate-up'>
+                            Start your project
+                            <span style={{ color: 'var(--light-green)', display:'block' }}>With a Free Consultation</span>  
+                        </h2>
+                        <br/>
+                        <p className="subtopic">
+                            Get a free consultation with our construction experts. We'll discuss your vision, assess your site, 
+                            and provide a detailed project proposal with transparent pricing.
+                        </p>
+
+                        <div>
+                            {
+                                contactInfo.map(contact=>(
+                                    <div key={contact.label}>
+                                        <div style={{display:'flex', flexDirection:'row', gap:'15px'}}>
+                                            <div className="cta-icon animate-left">
+                                                {contact.icon}
+                                            </div>
+                                            <div>
+                                                <h4>{contact.label}</h4>
+                                                <p>{contact.value}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+                        </div>
+
+                    </div>
+
+
+                    <div className="col-md-6">
+                         
+                        <div className="row ">
+                            {
+                                ctaFeaturesList.map(features=>(
+                                    <div key={features.id} className="col-md-6">
+                                        <div className="cta-icon animate-up" style={{marginBottom:"10px",  padding:"20px", minHeight:"150px"}}>
+                                            {features.icon}
+                                            
+                                            <p>{features.text}</p>
+                                        </div>
+                                        
+                                    </div>
+                                ))
+                            }
+                            
+                        </div>
+                    
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    )
+}

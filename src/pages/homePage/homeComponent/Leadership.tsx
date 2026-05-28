@@ -26,7 +26,7 @@ export const Leadership = ()=>{
                 <div className="row">
                     {
                         leaders.map((leader,index)=>(
-                            <div key={index} className="col-md-4 animate-up">
+                            <div key={index} className="col-md-4 animate-up d-flex mb-4">
                                 <div className="leadershipCard">
                                     <div
                                         style={{

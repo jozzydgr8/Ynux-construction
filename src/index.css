@@ -202,3 +202,13 @@ p.subtopic {
  border-bottom: 2px solid var(--primary-green);
   box-shadow: 0 4px 6px var(--light-green);
 }
+
+/* contact--contact--contact--contact */
+.cta-icon{
+  background: var(--light-green);
+  height: fit-content;
+  padding: 5px;
+  border-radius: 7px;
+  color: var(--ivory);
+
+}
