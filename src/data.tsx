@@ -162,18 +162,21 @@ export const ctaFeaturesList = [
 
 export const projects = [
   {
-    "title": "Hardcore Filling Works",
-    "image": hardCoreFillingWork,
-    "description": "Foundation preparation and hardcore filling works executed for durable ground support, structural stability, and reinforced slab construction."
+    title: "Hardcore Filling & Foundation Works",
+    image: hardCoreFillingWork,
+    description:
+      "Large-scale hardcore filling and reinforced foundation works executed to deliver superior ground stability, structural durability, and long-term construction integrity."
   },
   {
-    "title": "Road Construction Works",
-    "image": roadWork,
-    "description": "Professional road construction and asphalt paving works delivered with durable surfacing, proper grading, and long-lasting infrastructure quality."
+    title: "Road Construction & Asphalt Paving",
+    image: roadWork,
+    description:
+      "Comprehensive road construction and asphalt paving solutions delivered with precision engineering, durable surfacing, and high-capacity infrastructure standards."
   },
   {
-    "title": "Ground Leveling Works",
-    "image": groundLevel,
-    "description": "Site grading and ground leveling works carried out for stable foundations, proper elevation, and efficient construction preparation."
+    title: "Site Grading & Ground Leveling",
+    image: groundLevel,
+    description:
+      "Advanced site grading and ground leveling operations carried out to achieve optimal land preparation, elevation accuracy, and foundation readiness for major developments."
   }
-]
+];

@@ -21,7 +21,7 @@ export const Footer = ()=>{
                             <EnvironmentOutlined/> Nigeria — Multiple Cities
                         </div>
                     <div>
-                        <MailOutlined/> info@ynuxconstruction.com
+                        <MailOutlined/> info@ynuxconstruction.com <br/>
                     </div>
                     </div>
 

@@ -28,7 +28,7 @@ export const MarqueeComponent = ()=>{
         <Marquee>
             {
                     logos.map((partner, index)=>(
-                        <div key={index} style={{margin:"30px 50px 0px 50px"}}>
+                        <div key={index} className="marqueeImage">
                             <img src={partner.name} alt={partner.alt} style={{width:"200px", height:"150px", objectFit:"contain"}}/>
                         </div>
                     ))

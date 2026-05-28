@@ -216,7 +216,15 @@ p.subtopic {
    box-shadow: 0 4px 6px var(--different-background);
   border-radius: 20px;
 }
-
+/* --marquee --marquee--marquee--marquee */
+.marqueeImage{
+  margin:30px 50px 0px 50px
+}
+@media (max-width:600px) {
+  .marqueeImage{
+    margin: 30px 20px 0px 20px;
+}
+}
 /* contact--contact--contact--contact */
 .cta-icon{
   background: var(--light-green);

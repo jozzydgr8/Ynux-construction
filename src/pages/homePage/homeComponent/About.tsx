@@ -49,7 +49,7 @@ export const About = ()=>{
                         </ul>
                         <br/>
 
-                        <FlatButton title='learn more about us ' className='btnPrimary btn btn-xl' icon={<ArrowRightOutlined/>}/>
+                        <FlatButton title='learn more  ' className='btnPrimary btn btn-xl' icon={<ArrowRightOutlined/>}/>
                     </div>
 
 
