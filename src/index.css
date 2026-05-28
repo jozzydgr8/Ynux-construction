@@ -38,7 +38,7 @@ section > .container-fluid, footer > .container-fluid{
 h1 {
   font-family: "Cormorant SC", serif;
   font-weight: 700;
-  font-size: clamp(3.2rem, 7vw, 5.5rem);
+  font-size: clamp(3rem, 7vw, 5.5rem);
   line-height: 1;
 }
 h2{
@@ -109,7 +109,7 @@ nav .container-fluid{
 .homeBadgeParent{
   background-color: var(--transparent-green);
   color: var(--light-green);
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 3px 12px;
   border-radius: 20px;
   margin-top: 8px;
@@ -121,7 +121,7 @@ nav .container-fluid{
    display: inline-block;
   width: 12px;
   height: 12px;
-  background: var(--primary-green);
+  background: var(--light-green);
   border-radius: 50%;
   margin-right: 5px;
   vertical-align: middle;
@@ -175,6 +175,7 @@ p.subtopic {
   background: var(--background);
   padding: 15px 30px ;
   border-radius: 10px;
+ border-bottom: 2px solid var(--primary-green);
  
 }
 .serviceCard:hover{
@@ -182,4 +183,10 @@ p.subtopic {
    cursor: pointer;
     padding: 18px 32px ;
     transition: all 0.3s ease;
+}
+
+#about ul li::marker{
+  color: var(--primary-green);
+  font-size: 20px;
+
 }
