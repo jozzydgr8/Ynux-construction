@@ -104,6 +104,13 @@ nav .container-fluid{
   font-size: 1.5rem;
   border-radius: 0.5rem;
 }
+.borderlessbtn{
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
 
 /* special-classes special-classes special-classes */
 .homeBadgeParent{
@@ -211,4 +218,13 @@ p.subtopic {
   border-radius: 7px;
   color: var(--ivory);
 
+}
+
+
+
+
+/* --footer--footer --footer */
+footer{
+  background-color: var(--text-dark);
+  color: var(--gray);
 }

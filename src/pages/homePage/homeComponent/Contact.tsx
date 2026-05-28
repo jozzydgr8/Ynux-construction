@@ -1,4 +1,6 @@
 import { contactInfo, ctaFeaturesList } from "../../../data"
+import { FlatButton } from "../../../shared/FlatButton";
+import {ArrowRightOutlined} from '@ant-design/icons'
 export const  Contact = ()=>{
     return(
         <section>
@@ -42,6 +44,8 @@ export const  Contact = ()=>{
                                 ))
                             }
                         </div>
+                        <br/>
+                        <FlatButton title="Send Consultation request" className="btn btnSecondary btn-xl" icon={<ArrowRightOutlined/>}/>
 
                     </div>
 
@@ -63,11 +67,15 @@ export const  Contact = ()=>{
                             }
                             
                         </div>
-                    
+                            
                     </div>
 
 
+                        
+
                 </div>
+
+
             </div>
         </section>
     )

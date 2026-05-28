@@ -17,6 +17,10 @@ import okeAbiola from './assets/okeAbiola.png';
 import CEOAdelekeAjibola from './assets/AdelekeAjibola.png';
 import adebayoSamsundeen from './assets/adebayoSamsudeen.png';
 
+import hardCoreFillingWork from './assets/hardcoreFillingWork.png';
+import roadWork from './assets/roadtar.png';
+import groundLevel from './assets/floorLeveling.png';
+
 
 
 const contactIcon = {
@@ -155,3 +159,21 @@ export const ctaFeaturesList = [
     icon: <TrophyOutlined style={{ ...featureIcon }} />
   }
 ];
+
+export const projects = [
+  {
+    "title": "Hardcore Filling Works",
+    "image": hardCoreFillingWork,
+    "description": "Foundation preparation and hardcore filling works executed for durable ground support, structural stability, and reinforced slab construction."
+  },
+  {
+    "title": "Road Construction Works",
+    "image": roadWork,
+    "description": "Professional road construction and asphalt paving works delivered with durable surfacing, proper grading, and long-lasting infrastructure quality."
+  },
+  {
+    "title": "Ground Leveling Works",
+    "image": groundLevel,
+    "description": "Site grading and ground leveling works carried out for stable foundations, proper elevation, and efficient construction preparation."
+  }
+]
