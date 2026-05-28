@@ -10,6 +10,10 @@ import {
   AlertOutlined,
 } from "@ant-design/icons";
 
+import okeAbiola from './assets/OkeAbiola.jpg';
+import CEOAdelekeAjibola from './assets/ceo-adeleke-ajibola.jpg';
+import adebayoSamsundeen from './assets/adebayoSamsudeen.jpg';
+
 export const services = [
   {
     title: "Engineering & Design",
@@ -67,3 +71,23 @@ export const services = [
   },
 ];
 
+export const leaders = [
+  {
+    "name": "Engr. Adeleke Ajibola",
+    "position": "Chief Executive Officer",
+    "image": CEOAdelekeAjibola,
+    "description": "Providing strategic leadership and industry expertise, overseeing the company's vision and commitment to high-quality engineering solutions."
+  },
+  {
+    "name": "Adebayo Samsundeen",
+    "position": "Director of Projects",
+    "image": adebayoSamsundeen,
+    "description": "Responsible for project coordination and execution, ensuring operational efficiency and timely delivery across all infrastructure projects."
+  },
+  {
+    "name": "Oke Abiola Afeez",
+    "position": "Director, Road Projects",
+    "image":okeAbiola,
+    "description": "Leading road and infrastructure development with a focus on durability, safety, and world-class engineering standards."
+  }
+]

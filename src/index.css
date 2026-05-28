@@ -190,3 +190,14 @@ p.subtopic {
   font-size: 20px;
 
 }
+
+/* leadership-section--leadership-section--leadership-section */
+#leaderhsip{
+  background-color: var(--background);
+  
+}
+.leadershipCard{
+  background: var(--different-background);
+  border-radius: 10px;
+ border-bottom: 2px solid var(--primary-green);
+}
