@@ -3,6 +3,8 @@ import revolutionPlus from '../../../assets/revolutionPlus.png';
 import dantata from '../../../assets/dantatatown.png';
 import aston from '../../../assets/astonHomesLogo.png';
 import gilmore from '../../../assets/GIlmoreEngineeringLogo.png';
+import rcc from '../../../assets/rcc-construction-company.png';
+import adronHomes from '../../../assets/adronHomes.png';
 
  const logos = [
         {
@@ -20,6 +22,14 @@ import gilmore from '../../../assets/GIlmoreEngineeringLogo.png';
         {
             name:gilmore,
             alt:'gilmor-Engineering-limited'
+        },
+        {
+            name:rcc,
+            alt:'rcc-construction-company'
+        },
+        {
+            name:adronHomes,
+            alt:'adron-homes'
         }
     ]
 export const MarqueeComponent = ()=>{
