@@ -1,5 +1,6 @@
 import {services} from "../../../data"
 import { FlatButton } from "../../../shared/FlatButton"
+import { handleRequest } from "../../../shared/handleRequest"
 export const Service = ()=>{
     return(
         <section id="services">
@@ -42,7 +43,7 @@ export const Service = ()=>{
                 </div>
                 <br/>
                 <div className='animate-up text-center'>
-                    <FlatButton title='Explore All Services' className='btn btnSecondary btn-xl'/>
+                    <FlatButton title='Get in touch' className='btn btnSecondary btn-xl'onClick={()=>handleRequest('Hi, I’d like to get in touch regarding your construction services. Please let me know how I can proceed.')}/>
                 </div>
             </div>
         </section>

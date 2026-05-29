@@ -89,12 +89,16 @@ nav .container-fluid{
    margin-right: 10px;
    margin-bottom: 10px;
 } 
-.btnPrimary, .btnPrimary:hover, .btnSecondary:hover{
+.btnPrimary, .btnPrimary:hover{
   background: var(--primary-green);
   color: var(--ivory);
 }
-.btnSecondary{
-   background-color: none;
+.btnSecondary, .btnSecondary:hover{
+  background: rgba(255, 255, 255, 0.12);
+
+backdrop-filter: blur(1px);
+-webkit-backdrop-filter: blur(1px);
+   
    border: solid 1px var(--primary-green);
   color: var(--light-green);
 }
@@ -243,3 +247,29 @@ footer{
   background-color: var(--text-dark);
   color: var(--gray);
 }
+
+
+/* animation animation animation animation animation animation */
+.sectionAnimationLeft{
+  scroll-behavior: smooth;
+  animation: backInLeft;
+  animation-duration: 1.5s;
+}
+.sectionAnimationDown{
+  scroll-behavior: smooth;
+  animation:fadeInDownBig;
+  animation-duration: 1.2s;
+}
+
+.sectionAnimationUp{
+  scroll-behavior: smooth;
+  animation:fadeInUpBig;
+  animation-duration: 1.2s;
+
+}
+.sectionAnimationRight{
+  scroll-behavior: smooth;
+  animation: backInRight;
+  animation-duration: 1.2s;
+}
+

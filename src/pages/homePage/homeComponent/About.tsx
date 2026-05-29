@@ -1,6 +1,7 @@
 import { FlatButton } from "../../../shared/FlatButton";
 import {ArrowRightOutlined} from '@ant-design/icons';
 import aboutImage from '../../../assets/whitemaninConstruction.png';
+import { handleRequest } from "../../../shared/handleRequest";
 
 export const About = ()=>{
     return(
@@ -30,13 +31,13 @@ export const About = ()=>{
                         </h2>
                         <br/>
 
-                        <p className='subtopic'>
+                        <p className='subtopic animate-up'>
                             Established in 2020 and registered under the Companies and Allied Matters Act 1990, YNUX Integrated Construction Ltd was founded with a singular mission: 
                             to raise the standard of civil engineering and infrastructure development in Nigeria.
                         </p>
 
 
-                        <p>
+                        <p className="animate-up">
                             We have consistently delivered engineering and construction projects across multiple cities in Nigeria, combining quality, innovation,
                             and technical expertise to provide reliable project execution from concept to completion.
                         </p>
@@ -49,7 +50,7 @@ export const About = ()=>{
                         </ul>
                         <br/>
 
-                        <FlatButton title='learn more  ' className='btnPrimary btn btn-xl' icon={<ArrowRightOutlined/>}/>
+                        <FlatButton onClick={()=>handleRequest('Hi, I’d like to get in touch regarding your construction services. Please let me know how I can proceed.')} title='learn more  ' className='btnPrimary btn btn-xl animate-up' icon={<ArrowRightOutlined/>}/>
                     </div>
 
 

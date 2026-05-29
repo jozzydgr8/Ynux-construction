@@ -1,6 +1,7 @@
 import { contactInfo, ctaFeaturesList } from "../../../data"
 import { FlatButton } from "../../../shared/FlatButton";
 import {ArrowRightOutlined} from '@ant-design/icons'
+import { handleRequest } from "../../../shared/handleRequest";
 export const  Contact = ()=>{
     return(
         <section>
@@ -46,7 +47,7 @@ export const  Contact = ()=>{
                         </div>
                         <br/>
                        <div>
-                         <FlatButton title="Send Consultation request" className="btn btnSecondary btn-lg" icon={<ArrowRightOutlined/>}/>
+                         <FlatButton onClick={()=>handleRequest('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')} title="Send Consultation request" className="btn btnSecondary btn-lg" icon={<ArrowRightOutlined/>}/>
                        </div>
 
                     </div>

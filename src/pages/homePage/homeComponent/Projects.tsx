@@ -1,9 +1,10 @@
 import {projects} from '../../../data'
 import { FlatButton } from '../../../shared/FlatButton'
+import { handleRequest } from '../../../shared/handleRequest'
 import { MarqueeComponent } from './MarqueeComponent'
 export const Projects = ()=>{
     return(
-        <section>
+        <section id='projects'>
             <div className="container-fluid">
                 <div className='text-center'>
                                     
@@ -29,7 +30,7 @@ export const Projects = ()=>{
                     {
                         projects.map((project, index)=>(
                             <div className='col-md-4 d-flex mb-4' key={index}>
-                                <div className="projectCard">
+                                <div className="projectCard animate-up">
                                     <div
                                     style={{height:"150px", width:"100%",backgroundImage:`url(${project.image})`,
                                     backgroundSize:"cover", backgroundPosition:'center', backgroundRepeat:'no-repeat'}}></div>
@@ -44,7 +45,7 @@ export const Projects = ()=>{
                     }
                 </div>
                 <div className='text-center'>
-                    <FlatButton title='Make Enquiries' className='btn btnPrimary btn-xl'/>
+                    <FlatButton onClick={()=>handleRequest('Hi, I’d like to get in touch regarding your construction services. Please let me know how I can proceed.')} title='Make Enquiries' className='btn btnPrimary btn-xl'/>
                 </div>
                 <MarqueeComponent/>
                 

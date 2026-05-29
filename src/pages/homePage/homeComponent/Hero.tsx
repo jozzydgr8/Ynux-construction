@@ -1,10 +1,24 @@
 import { FlatButton } from "../../../shared/FlatButton"
-
+import { handleRequest } from "../../../shared/handleRequest"
+import { useEffect } from "react";
 export const Hero = ()=>{
+    useEffect(() => {
+    const headerText = document.querySelector('.heroWrite');
+    headerText?.classList.add('sectionAnimationLeft');
+
+    const headerButton = document.querySelector('.heroBottom');
+    headerButton?.classList.add('sectionAnimationUp');
+
+    const headerImage = document.querySelector('.subtopic');
+    headerImage?.classList.add('sectionAnimationUp');
+
+    const heroBadge = document.querySelector('.heroBadge');
+    heroBadge?.classList.add('sectionAnimationDown');
+    }, []);
     return(
         <section id = 'hero'>
             <div className="container-fluid text-center">
-                <div>
+                <div className="heroBadge">
                     
                    <span className='homeBadgeParent '> 
                     <span className='homeBadge'></span>
@@ -12,7 +26,7 @@ export const Hero = ()=>{
                     </span>
                 </div>
                 <br/>
-                <h1>
+                <h1 >
                     Engineering
                     Nigeria's Future
 
@@ -26,9 +40,9 @@ export const Hero = ()=>{
                     technical precision, and proven reliability.
                 </p>
                 <br/><br/>
-                <div>
-                    <FlatButton title='Get Free Consultation' className='btn btnPrimary btn-xl ' onClick={()=>alert('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')}/>    
-                    <FlatButton title='View Our Projects' className='btn btnSecondary btn-xl'/>
+                <div className="heroBottom">
+                    <FlatButton title='Get Free Consultation' className='btn btnPrimary btn-xl ' onClick={()=>handleRequest('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')}/>    
+                    <a href='/#projects' className='btn btnSecondary btn-xl'>View Our Projects</a>
                 </div>
                 <br/>
 

@@ -1,6 +1,7 @@
 import {ArrowRightOutlined, EnvironmentOutlined, MailOutlined} from '@ant-design/icons'
 import businessLogo from '../assets/businessLogo.png'
 import { FlatButton } from './FlatButton'
+import { handleRequest } from './handleRequest'
 export const Footer = ()=>{
     const year = new Date().getFullYear()
     return(
@@ -18,10 +19,10 @@ export const Footer = ()=>{
                     </p>
                     
                         <div>
-                            <EnvironmentOutlined/> Nigeria — Multiple Cities
+                            <EnvironmentOutlined style={{color:'var(--primary-green)'}}/> Nigeria — Multiple Cities
                         </div>
                     <div>
-                        <MailOutlined/> info@ynuxconstruction.com <br/>
+                        <MailOutlined style={{color:'var(--primary-green)'}} /> info@ynuxconstruction.com <br/>
                     </div>
                     </div>
 
@@ -47,7 +48,7 @@ export const Footer = ()=>{
                             Ready to bring your construction or engineering vision to life? Get a free consultation from our team.
                         </p>
                         <br/>
-                        <FlatButton title='Free Consultation' icon={<ArrowRightOutlined/>} className='btn btn-lg btnPrimary'/><br/>
+                        <FlatButton onClick={()=>handleRequest('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')} title='Free Consultation' icon={<ArrowRightOutlined/>} className='btn btn-lg btnPrimary'/><br/>
                         <a href='/#projects'>View Our Projects <ArrowRightOutlined/> </a><br/>
                     </div>
 
