@@ -1,6 +1,6 @@
 import { FlatButton } from "../../../shared/FlatButton";
 import {ArrowRightOutlined} from '@ant-design/icons';
-import aboutImage from '../../../assets/whitemaninConstruction.png';
+import aboutImage from '../../../assets/cementMixAndBrickWithBoyS.png';
 import { handleRequest } from "../../../shared/handleRequest";
 
 export const About = ()=>{
@@ -8,7 +8,7 @@ export const About = ()=>{
         <section id="about">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-6 d-flex mb-4">
+                    <div className="col-md-6 d-flex mb-4 animate-up">
                         <div style={{width:'100%',
                         
                         height:'100%',backgroundImage:`url(${aboutImage})`, backgroundPosition:'center', backgroundSize:'cover', minHeight:'300px'}}></div>
