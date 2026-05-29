@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ynux-construction/static/css/main.c5702f09.css",
-    "main.js": "/Ynux-construction/static/js/main.571838bc.js",
+    "main.css": "/Ynux-construction/static/css/main.f92de530.css",
+    "main.js": "/Ynux-construction/static/js/main.ba79d1d4.js",
     "static/js/453.2b03c15a.chunk.js": "/Ynux-construction/static/js/453.2b03c15a.chunk.js",
     "static/media/roadtar.png": "/Ynux-construction/static/media/roadtar.a729144e510e47d55a20.png",
     "static/media/hardcoreFillingWork.png": "/Ynux-construction/static/media/hardcoreFillingWork.0f71f69b9e26c923dc3b.png",
@@ -16,12 +16,12 @@
     "static/media/astonHomesLogo.png": "/Ynux-construction/static/media/astonHomesLogo.9ec114fe2b9b52be6255.png",
     "static/media/revolutionPlus.png": "/Ynux-construction/static/media/revolutionPlus.93172c379323798782e4.png",
     "index.html": "/Ynux-construction/index.html",
-    "main.c5702f09.css.map": "/Ynux-construction/static/css/main.c5702f09.css.map",
-    "main.571838bc.js.map": "/Ynux-construction/static/js/main.571838bc.js.map",
+    "main.f92de530.css.map": "/Ynux-construction/static/css/main.f92de530.css.map",
+    "main.ba79d1d4.js.map": "/Ynux-construction/static/js/main.ba79d1d4.js.map",
     "453.2b03c15a.chunk.js.map": "/Ynux-construction/static/js/453.2b03c15a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5702f09.css",
-    "static/js/main.571838bc.js"
+    "static/css/main.f92de530.css",
+    "static/js/main.ba79d1d4.js"
   ]
 }
