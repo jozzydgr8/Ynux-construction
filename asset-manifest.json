@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Ynux-construction/static/css/main.bdd3c269.css",
-    "main.js": "/Ynux-construction/static/js/main.7f23ea36.js",
-    "static/js/453.2b03c15a.chunk.js": "/Ynux-construction/static/js/453.2b03c15a.chunk.js",
-    "static/media/hardcoreFillingWork.png": "/Ynux-construction/static/media/hardcoreFillingWork.760fbe44822019699be8.png",
-    "static/media/roadtar.png": "/Ynux-construction/static/media/roadtar.a1e7bbda1765d5c26ee0.png",
-    "static/media/cementMixAndBrickWithBoyS.png": "/Ynux-construction/static/media/cementMixAndBrickWithBoyS.762d873778c74ec59407.png",
-    "static/media/floorLeveling.png": "/Ynux-construction/static/media/floorLeveling.e8be5785c6fb2f344031.png",
-    "static/media/GIlmoreEngineeringLogo.png": "/Ynux-construction/static/media/GIlmoreEngineeringLogo.423250ddc6a9f4fdfa21.png",
-    "static/media/dantatatown.png": "/Ynux-construction/static/media/dantatatown.f57a1c3098c1ab734b45.png",
-    "static/media/AdelekeAjibola.png": "/Ynux-construction/static/media/AdelekeAjibola.2e8a3c7f3f4031bfff65.png",
-    "static/media/adebayoSamsudeen.png": "/Ynux-construction/static/media/adebayoSamsudeen.bc086016c2715e1faed7.png",
-    "static/media/okeAbiola.png": "/Ynux-construction/static/media/okeAbiola.cce4f2f393abc367d57b.png",
-    "static/media/businessLogo.png": "/Ynux-construction/static/media/businessLogo.a86434ec577895dd1f3a.png",
-    "static/media/astonHomesLogo.png": "/Ynux-construction/static/media/astonHomesLogo.8dff94f168e2c8d1e974.png",
-    "static/media/adronHomes.png": "/Ynux-construction/static/media/adronHomes.77846f53ac9b942d2bbb.png",
-    "static/media/rcc-construction-company.png": "/Ynux-construction/static/media/rcc-construction-company.f8a99df6be0863fcb62e.png",
-    "static/media/revolutionPlus.png": "/Ynux-construction/static/media/revolutionPlus.a839c6dcdbd88ef7aa04.png",
-    "index.html": "/Ynux-construction/index.html",
-    "main.bdd3c269.css.map": "/Ynux-construction/static/css/main.bdd3c269.css.map",
-    "main.7f23ea36.js.map": "/Ynux-construction/static/js/main.7f23ea36.js.map",
-    "453.2b03c15a.chunk.js.map": "/Ynux-construction/static/js/453.2b03c15a.chunk.js.map"
+    "main.css": "/static/css/main.caf2f13e.css",
+    "main.js": "/static/js/main.c4e6ff00.js",
+    "static/js/453.2b03c15a.chunk.js": "/static/js/453.2b03c15a.chunk.js",
+    "static/media/hardcoreFillingWork.png": "/static/media/hardcoreFillingWork.760fbe44822019699be8.png",
+    "static/media/roadtar.png": "/static/media/roadtar.a1e7bbda1765d5c26ee0.png",
+    "static/media/cementMixAndBrickWithBoyS.png": "/static/media/cementMixAndBrickWithBoyS.762d873778c74ec59407.png",
+    "static/media/floorLeveling.png": "/static/media/floorLeveling.e8be5785c6fb2f344031.png",
+    "static/media/GIlmoreEngineeringLogo.png": "/static/media/GIlmoreEngineeringLogo.423250ddc6a9f4fdfa21.png",
+    "static/media/dantatatown.png": "/static/media/dantatatown.f57a1c3098c1ab734b45.png",
+    "static/media/AdelekeAjibola.png": "/static/media/AdelekeAjibola.2e8a3c7f3f4031bfff65.png",
+    "static/media/adebayoSamsudeen.png": "/static/media/adebayoSamsudeen.bc086016c2715e1faed7.png",
+    "static/media/okeAbiola.png": "/static/media/okeAbiola.cce4f2f393abc367d57b.png",
+    "static/media/businessLogo.png": "/static/media/businessLogo.a86434ec577895dd1f3a.png",
+    "static/media/astonHomesLogo.png": "/static/media/astonHomesLogo.8dff94f168e2c8d1e974.png",
+    "static/media/adronHomes.png": "/static/media/adronHomes.77846f53ac9b942d2bbb.png",
+    "static/media/rcc-construction-company.png": "/static/media/rcc-construction-company.f8a99df6be0863fcb62e.png",
+    "static/media/revolutionPlus.png": "/static/media/revolutionPlus.a839c6dcdbd88ef7aa04.png",
+    "index.html": "/index.html",
+    "main.caf2f13e.css.map": "/static/css/main.caf2f13e.css.map",
+    "main.c4e6ff00.js.map": "/static/js/main.c4e6ff00.js.map",
+    "453.2b03c15a.chunk.js.map": "/static/js/453.2b03c15a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdd3c269.css",
-    "static/js/main.7f23ea36.js"
+    "static/css/main.caf2f13e.css",
+    "static/js/main.c4e6ff00.js"
   ]
 }
