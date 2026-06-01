@@ -122,12 +122,12 @@ export const contactInfo = [
   {
     icon: <PhoneFilled style={{...contactIcon}}/>,
     label: "Call us directly",
-    value:<a href="tel:+234 808 899 1286">+234 123 454 6789</a>
+    value:<a href="tel:+234 808 899 1286">+234 808 899 1286</a>
   },
   {
     icon: <MailFilled style={{...contactIcon}}/>,
     label: "Email us anytime",
-    value: <a href="mailto:info@ynuxconstruction">info@ynuxconstruction</a>
+    value: <a href="mailto:yinuxintegratedconstruction@gmail.com">yinuxintegratedconstruction@gmail.com</a>
   },
   {
     icon: <EnvironmentFilled style={{...contactIcon}}/>,
