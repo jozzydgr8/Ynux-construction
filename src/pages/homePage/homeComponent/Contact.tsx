@@ -38,7 +38,7 @@ export const  Contact = ()=>{
                                             </div>
                                             <div>
                                                 <h4>{contact.label}</h4>
-                                                <p>{contact.value}</p>
+                                                <small>{contact.value}</small>
                                             </div>
                                         </div>
                                     </div>
