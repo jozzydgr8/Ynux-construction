@@ -32,13 +32,13 @@ export const  Contact = ()=>{
                             {
                                 contactInfo.map(contact=>(
                                     <div key={contact.label}>
-                                        <div style={{display:'flex', flexDirection:'row', gap:'15px'}}>
-                                            <div className="cta-icon animate-left">
+                                        <div className="row">
+                                            <div className="cta-icon animate-left col-sm-6">
                                                 {contact.icon}
                                             </div>
-                                            <div>
+                                            <div className="col-sm-6">
                                                 <h4>{contact.label}</h4>
-                                                <small>{contact.value}</small>
+                                                <p>{contact.value}</p>
                                             </div>
                                         </div>
                                     </div>
