@@ -36,6 +36,7 @@ export const  Contact = ()=>{
                                             <div className="cta-icon animate-left col-sm-6">
                                                 {contact.icon}
                                             </div>
+                                            <br/>
                                             <div className="col-sm-6">
                                                 <h4>{contact.label}</h4>
                                                 <p>{contact.value}</p>
