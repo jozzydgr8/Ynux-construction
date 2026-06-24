@@ -28,7 +28,7 @@ const contactIcon = {
     color:'var(--ivory)',
     padding:'15px',
     borderRadius:'15px',
-    display:"inlineBlock"
+     display: 'inline-block'
   
   }
 
