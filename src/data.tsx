@@ -99,7 +99,7 @@ export const services = [
 
 export const leaders = [
   {
-    "name": "Engr. Adeleke Ajibola",
+    "name": "Engr. Adeleke Jubril Ajibola",
     "position": "Chief Executive Officer",
     "image": CEOAdelekeAjibola,
     "description": "Providing strategic leadership and industry expertise, overseeing the company's vision and commitment to high-quality engineering solutions."
@@ -127,7 +127,7 @@ export const contactInfo = [
   {
     icon: <MailFilled style={{...contactIcon}}/>,
     label: "Email us anytime",
-    value: <a href="mailto:yinuxintegratedconstruction@gmail.com">yinuxintegratedconstruction@gmail.com</a>
+    value: <a href="mailto:yinuxintegratedconstruction@gmail.com">ynuxintegratedconstruction@gmail.com</a>
   },
   {
     icon: <EnvironmentFilled style={{...contactIcon}}/>,
