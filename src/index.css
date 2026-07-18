@@ -232,10 +232,10 @@ p.subtopic {
 /* contact--contact--contact--contact */
 .cta-icon{
   background: var(--light-green);
-  height: fit-content;
   padding: 5px;
   border-radius: 7px;
   color: var(--ivory);
+  width: fit-content;
 
 }
 

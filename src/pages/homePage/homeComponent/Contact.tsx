@@ -33,8 +33,9 @@ export const  Contact = ()=>{
                                 contactInfo.map(contact=>(
                                     <div key={contact.label}>
                                         <div className="row">
-                                            <div className="cta-icon animate-left col-sm-6">
-                                                {contact.icon}
+                                            <div className="cta-icon animate-left col-sm-6 mb-2">
+                                                
+                                                    {contact.icon}
                                             </div>
                                             <br/>
                                             <div className="col-sm-6">
